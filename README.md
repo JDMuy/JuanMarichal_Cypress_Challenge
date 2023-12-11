@@ -1,6 +1,7 @@
 # Juan Marichal QA Engineer Coding Challenge
 
 Welcome to my coding challenge! This project demonstrates a basic Cypress test suite for a simple login process and form filling on a web application.
+
 Note: This is a basic test suite that demostrates my knowledge about this test framework. And how I used to structure my specs.
 
 ## Getting Started
