@@ -19,7 +19,7 @@ const pom = {
 
     methods: {
         login,
-        bookARoom
+        fillContactForm
     }
 };
 
@@ -29,7 +29,7 @@ function login(username, password) {
     pom.elements.signInButton.should('be.visible').click();
 }
 
-function bookARoom(name, email, phone, subject, message) {
+function fillContactForm(name, email, phone, subject, message) {
     pom.elements.bookThisRoomButton.should('be.visible').click();
     pom.elements.nameTextbox.type(name);
     pom.elements.emailTextbox.last().type(email);

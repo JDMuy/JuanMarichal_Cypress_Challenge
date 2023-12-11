@@ -19,6 +19,6 @@ context('Verify that we are able to login to one site and fill a contact form in
 
     specify('Fill contact form', () => {
         cy.visit('https://automationintesting.online/');
-        pom.methods.bookARoom(name, email, phone, subject, message);
+        pom.methods.fillContactForm(name, email, phone, subject, message);
     });
 });
